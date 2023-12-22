@@ -1,0 +1,32 @@
+ 2  sudo apt-get install docker.io
+    3  sudo apt-get install git -y
+    4  git clone https://github.com/DevopsvivekS/django-notes-app.git
+
+
+25  docker ps
+   26  whoami
+   27  docker version
+   28  sudo usermod -aG docker $USER
+   29  docker version
+   30  sudo chmod 777 /var/run/docker.sock
+
+
+    36  docker ps
+   37  java -version
+   38  sudo apt update
+   39  sudo apt install openjdk-17-jdk -y
+
+   40  sudo wget -O /usr/share/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+   41  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   42  sudo apt-get update
+   43  sudo apt-get install jenkins
+28  sudo usermod -aG docker jenkins
+   44  service jenkins status
+   46  cat /var/lib/jenkins/secrets/initialAdminPassword
+   47  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   48  sudo apt-get update sudo apt install nginx
+   49  sudo apt-get update
+   50  sudo apt install nginx
+   51  sudo apt install docker-compose
+
+   make sure add dockerHub credentials in jenkins
