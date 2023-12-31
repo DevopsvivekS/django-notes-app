@@ -1,4 +1,5 @@
- 2  sudo apt-get install docker.io
+1  sudo apt-get update
+2  sudo apt-get install docker.io
     3  sudo apt-get install git -y
     4  git clone https://github.com/DevopsvivekS/django-notes-app.git
 
